@@ -1,24 +1,8 @@
- 
-Greasy Fork
-Entrar 
-Português do Brasil (pt-BR)
-Scripts Fórum Ajuda Mais
-Informação
-Código
-Histórico
-Comentários (0)
-Estatísticas
-Overlay da Missão com Contadores
-Overlay da Missão para WPlace com contadores
-
-Reinstalar a versão 2.1.21?
-Faça uma pergunta, publique uma avaliação, ou denuncie o script.
-Wrap lines
 // ==UserScript==
-// @name         Overlay da Missão com Contadores
+// @name         Overlay SquidCoder
 // @namespace    http://tampermonkey.net/
 // @version      2.1.21
-// @description  Overlay da Missão para WPlace com contadores
+// @description  Overlay SquidCoder
 // @author       Víkish
 // @match        https://wplace.live/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=partidomissao.com
