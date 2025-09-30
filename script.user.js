@@ -330,7 +330,7 @@ fetch = new Proxy(fetch, {
 
 // ======================== DATA / UI BUTTON ========================
 async function fetchData() {
-  const response = await fetch("https://raw.githubusercontent.com/rafaelwdornelas/wplace/refs/heads/main/overlays.json?" + Date.now());
+  const response = await fetch("https://cdn.jsdelivr.net/gh/rafaelwdornelas/wplace@main/overlays.json?" + Date.now());
   const data = await response.json();
   console.log(`Carregando ${data.length} overlays`);
   return data;
