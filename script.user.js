@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Overlay SquidCoder (multi-chunk)
 // @namespace    http://tampermonkey.net/
-// @version      2.3.0
+// @version      2.3.1
 // @description  Overlay por tiles com suporte a atravessar múltiplos chunks
 // @author       Víkish
 // @match        https://wplace.live/*
@@ -330,7 +330,7 @@ fetch = new Proxy(fetch, {
 
 // ======================== DATA / UI BUTTON ========================
 async function fetchData() {
-  const response = await fetch("https://cdn.jsdelivr.net/gh/rafaelwdornelas/wplace@main/overlays2.json?" + Date.now());
+  const response = await fetch("https://cdn.jsdelivr.net/gh/rafaelwdornelas/wplace@main/overlays1.json?" + Date.now());
   const data = await response.json();
   console.log(`Carregando ${data.length} overlays`);
   return data;
